@@ -1,4 +1,6 @@
-REM ### Copia arquivos de senhas do KeePass 
+REM ### Autor: Fernando Lopes
+
+REM ### Copia arquivos de senhas do KeePass
 robocopy "\\vbrp-s3000.camshafts.local\home$\lopfer\BKP\Password databases" "%USERPROFILE%\Documents\Password databases" /E /PURGE
 
 REM ### Copia arquivos do Remote Desktop Connection Manager
